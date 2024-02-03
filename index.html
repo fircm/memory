@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+<!--suppress ALL -->
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
     <title>Fircm</title>
-    <link rel="stylesheet" type="text/css" href="html.css">
+    <link rel="stylesheet" type="text/css" href="memory.css">
 </head>
 <body>
 <nav>
@@ -14,5 +15,27 @@
     </ul>
 </nav>
 <p class="nav">想看看Fircm的什么回忆呢？</p>
+<button id="button1">编程辑</button>
+<p><iframe id="iframe" width="100%" height="1000"></iframe></p>
+
 </body>
 </html>
+<script>
+    let button1 = document.getElementById('button1');
+    //let button2 = document.getElementById('button2');
+    let iframe = document.getElementById('iframe');
+    button1.addEventListener('click', function() {
+        button1.style.opacity = 0.5;
+        iframe.src = '编程辑.html';
+        setTimeout(function () {
+            button1.style.opacity = 1
+        }, 50)
+    })
+    //button2.addEventListener('click', function() {
+    //button2.style.opacity = 0.5;
+    //iframe.src = '222222.html';
+    //setTimeout(function () {
+    //    button2.style.opacity = 1
+    //}, 50)
+    //})
+</script>
