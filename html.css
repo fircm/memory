@@ -58,3 +58,15 @@ p.nav {
 p {
     margin: 5px; /* 设置外边距 */
 }
+
+button{
+    border: 2px solid cornflowerblue;
+    color: darksalmon;
+    padding: 4px 30px;
+    margin-left: 5px;
+    font-size: 80%;
+}
+
+iframe{
+    border: 1.5px solid cornflowerblue;
+}
