@@ -1,5 +1,5 @@
 body{
-    font-family: Helvetica Neue, 方正粗黑宋简体, sans-serif;
+    font-family: 方正粗黑宋简体;
     background-color: lightgrey;
 }
 
@@ -71,36 +71,3 @@ button{
 iframe{
     border: 1.5px solid cornflowerblue;
 }
-
-p.t1{
-    font-weight: bold; /* 设置字体加粗 */
-    font-size: 120%;
-    color: cornflowerblue;
-}
-
-p.start{
-    padding: 1px 30px;
-}
-
-p.a{
-    color: white;
-}
-
-p.A{
-    color: orangered;
-}
-
-a.p{
-    font-size: inherit;
-    padding: 0;
-    color: blue;
-    text-decoration: underline;
-}
-
-a.star{
-    font-size: 110%;
-    position: relative;
-    left: 100px;
-    padding: 0;
-}
-
