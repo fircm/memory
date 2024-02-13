@@ -1,0 +1,48 @@
+body{
+    font-family: 方正粗黑宋简体;
+    background-color: lightgrey;
+}
+
+p{
+    margin: 10px;
+}
+
+a{
+    color: dodgerblue;
+}
+
+p.start{
+    padding: 0 30px;
+}
+
+p.t1{
+    font-size: 150%;
+    color: darkcyan;
+    font-family: 微软雅黑;
+}
+
+p.a{
+    color: whitesmoke;
+}
+
+p.A{
+    color: lightcoral;
+}
+
+a.star{
+    position: relative;
+    left: 200px;
+}
+
+button{
+    margin-inline: 30px;
+    border: outset;
+}
+
+button:active{
+    border: inset;
+}
+
+iframe{
+    border: none;
+}
